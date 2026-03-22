@@ -1,9 +1,0 @@
-name = "cratepublish.yiidtw"
-agent_type = "cratepublish"
-created_at = "2026-03-22T16:18:02.917457+00:00"
-email = "cratepublish@aide.sh"
-role = "Publish and update Rust crates on crates.io + academic releases on Zenodo"
-domains = []
-uuid = "69c0163a-36aa-4bd0-afb8-361e8517f3b8"
-machine_id = "Mac.hitronhub.home"
-github_repo = "yiidtw/aide-cratepublish"
