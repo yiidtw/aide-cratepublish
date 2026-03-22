@@ -1,0 +1,30 @@
+[agent]
+name = "cratepublish"
+version = "0.1.0"
+description = "Publish and update Rust crates on crates.io + academic releases on Zenodo"
+author = "ydwu"
+
+[persona]
+file = "persona.md"
+
+[soul]
+prefer = "none"
+
+[skills.crate]
+script = "skills/crate.ts"
+description = "crate skill"
+
+[skills.zenodo]
+script = "skills/zenodo.ts"
+description = "zenodo skill"
+
+[skills.version]
+script = "skills/version.ts"
+description = "version skill"
+
+[skills.status]
+script = "skills/status.ts"
+description = "status skill"
+
+[knowledge]
+dir = "knowledge/"
