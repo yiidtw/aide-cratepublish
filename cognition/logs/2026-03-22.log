@@ -1,0 +1,24 @@
+[16:57:20] exec: crate info rvsail
+[16:57:21] exec-result: crate info rvsail → ok (exit 0)
+[17:03:17] exec: crate check /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[17:03:18] exec-result: crate check /mnt/storage1/users/ydwu/claude_projects/rvsail/software → FAILED (exit 101)
+[17:04:20] exec: crate check /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[17:04:24] exec-result: crate check /mnt/storage1/users/ydwu/claude_projects/rvsail/software → ok (exit 0)
+[17:04:32] exec: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[17:04:33] exec-result: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software → FAILED (exit 1)
+[17:04:36] exec: env
+[17:04:36] exec-result: env → FAILED (exit 1)
+[17:04:36] exec: env
+[17:04:37] exec-result: env → FAILED (exit 1)
+[17:04:40] exec: ls /home/ydwu/.aide/instances/crate-publish.yiidtw/cognition/
+[17:04:40] exec-result: ls /home/ydwu/.aide/instances/crate-publish.yiidtw/cognition/ → FAILED (exit 1)
+[17:05:16] exec: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[17:05:22] exec-result: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software → ok (exit 0)
+[17:05:28] exec: zenodo publish rvsail: RISC-V ISA Conformance Verification via Sail Oracle Formal verification tool for RISC-V processors. Automatically checks RTL implementations against the official Sail ISA specification using SMT solving. Supports combinational verification of 222+ operations across 10+ cores, including RVV vector and Zkn/Zks crypto extensions.
+[17:05:35] exec-result: zenodo publish rvsail: RISC-V ISA Conformance Verification via Sail Oracle Formal verification tool for RISC-V processors. Automatically checks RTL implementations against the official Sail ISA specification using SMT solving. Supports combinational verification of 222+ operations across 10+ cores, including RVV vector and Zkn/Zks crypto extensions. → ok (exit 0)
+[17:05:42] exec: zenodo upload 19163881 /tmp/rvsail-0.2.0.tar.gz
+[17:05:53] exec-result: zenodo upload 19163881 /tmp/rvsail-0.2.0.tar.gz → ok (exit 0)
+[17:05:55] exec: zenodo finalize 19163881
+[17:05:56] exec-result: zenodo finalize 19163881 → ok (exit 0)
+[17:06:28] exec: crate info rvsail
+[17:06:28] exec-result: crate info rvsail → ok (exit 0)

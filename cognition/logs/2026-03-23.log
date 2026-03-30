@@ -1,0 +1,4 @@
+[14:49:57] exec: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[14:49:58] exec-result: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software → FAILED (exit 101)
+[14:52:43] exec: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software
+[14:52:49] exec-result: crate publish /mnt/storage1/users/ydwu/claude_projects/rvsail/software → ok (exit 0)

@@ -1,0 +1,10 @@
+name = "crate-publish.yiidtw"
+agent_type = "crate-publish"
+created_at = "2026-03-22T00:00:00Z"
+email = "crate-publish@aide.sh"
+role = "Publish and update Rust crates on crates.io + academic releases on Zenodo"
+domains = []
+cron = []
+github_repo = "yiidtw/aide-crate-publish"
+uuid = "09cd767e-1f41-448b-9f7d-8cfc41525fc0"
+machine_id = "formace-00"
